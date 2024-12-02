@@ -1,3 +1,7 @@
 ### Get product by ID
 GET http://localhost:3000/
-Authorization: myapitoken
+Authorization: myapitoken1
+
+###
+GET http://localhost:3000/products
+Authorization: myapitoken1
