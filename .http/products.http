@@ -1,6 +1,18 @@
 ### Get all product
-GET http://localhost:3000/products
+GET http://localhost:3000/products?category=shoes&minP=1000&maxP=100000
 
 
 ### Get product by ID
 GET http://localhost:3000/products/12
+
+
+### Create a new product
+POST http://localhost:3000/products
+Authorization: Bearer myToken
+Content-Type: application/json
+
+{
+  "name":"book1",
+  "price": 22,
+  "authorEmail": "me@azhamrasyid.com"
+}
