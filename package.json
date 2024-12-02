@@ -1,0 +1,13 @@
+{
+  "name": "myapi",
+  "scripts": {
+    "dev": "bun  --watch src/index.ts"
+  },
+  "dependencies": {
+    "elysia": "^1.1.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "@types/bun": "^1.1.6"
+  }
+}
